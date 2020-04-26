@@ -1,2 +1,4 @@
 # Redux-React-Less-Starter-Page
-### A boilerplate application for React, Redux, Less and Webpack based projects. 
+![Screenshot](./boilerplate-screenshot.png)
+
+### A boilerplate application for React, Redux, SCSS (Easily Converts to Less) and Webpack based projects. 

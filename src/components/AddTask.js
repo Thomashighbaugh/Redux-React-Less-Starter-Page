@@ -34,7 +34,7 @@ export class AddTask extends Component {
 
     render() {
       return (
-          <div className="form-container">
+          <div className="form-container col-12">
               <form onSubmit={(e) => this.submitTask(e)}>
                   <input className="task-form-text"
                     placeholder="New task..."

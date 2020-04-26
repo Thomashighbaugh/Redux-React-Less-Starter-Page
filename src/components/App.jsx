@@ -16,7 +16,7 @@ render() {
     changeTaskStatus
   } = this.props
   return (
-    <div>
+    <div className="container">
       <Title cardsCount={tasks.length}/>
       <AddTask />
       <Board

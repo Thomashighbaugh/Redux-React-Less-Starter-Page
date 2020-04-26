@@ -4,21 +4,21 @@ import List from './List.js';
 
 const Board = ({tasks, onChangeClick, onRemoveClick}) => {
   return (
-    <div className="project-board">
+    <div className="project-board col-12">
       <List status="TODO" tasks={tasks}
         onChangeClick={onChangeClick}
         onRemoveClick={onRemoveClick}>
-          Todo tasks
+          Not Done
       </List>
       <List status="DOING" tasks={tasks}
         onChangeClick={onChangeClick}
         onRemoveClick={onRemoveClick}>
-          Doing tasks
+          In Progress
       </List>
       <List status="DONE" tasks={tasks}
         onChangeClick={onChangeClick}
         onRemoveClick={onRemoveClick}>
-          Done tasks
+          Completed
       </List>
     </div>
   )
