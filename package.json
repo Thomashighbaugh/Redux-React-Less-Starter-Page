@@ -15,7 +15,7 @@
   "author": "Thomas Leon Highbaugh",
   "license": "MIT",
   "dependencies": {
-    "ajv": "^6.5.2",
+    "ajv": "^6.12.6",
     "bootstrap": "^4.4.1",
     "less": "^2.7.3",
     "less-loader": "^2.2.3",
